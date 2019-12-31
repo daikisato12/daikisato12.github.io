@@ -2,8 +2,20 @@
 
 
 body	{margin: 0;
-	font-family: 'Book Antiqua'}
+	font-family: 'Bitter', 'Noto Sans Japanese';
+	word-break: break-word;
+	overflow-wrap: break-word;
+	background-color:#33352B;
+	-webkit-text-size-adjust: 100%;}
 
+
+/*リンクの表示設定*/
+a {color: #000;
+	transition: .4s;
+}
+a:link      { color : #E6E6E6 ; }
+a:visited  { color : #E6E6E6 ; }
+a:hover    { color : #ff7f7f ; }
 
 /* サイト名 */
 .site h1 a	{color: #000000;
@@ -22,10 +34,10 @@ body	{margin: 0;
 	padding: 8px 15px;
 	color: #666666;
 	font-size: 15px;
-	text-decoration: none}
+	text-decoration: none;
+	transition: .4s}
 
-.menu li a:hover	{color: darkred;
-			font-weight: bold}
+.menu li a:hover	{color: #ff7f7f;}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -33,6 +45,29 @@ body	{margin: 0;
 
 .menu li	{float: left;
 	width: auto}
+
+/* ハンバーガーメニューナビゲーション */
+.zdo_drawer_nav_wrapper ul	{margin: 0;
+	padding: 0;
+	list-style: none;}
+
+.zdo_drawer_nav_wrapper li	{float: top;
+	display: list-item;
+	color: #666666;
+	width: auto;}
+
+.zdo_drawer_nav_wrapper li a	{display: list-item;
+	padding: 8px 15px;
+	font-size: 15px;
+	text-decoration: none;
+	transition: .4s}
+
+.zdo_drawer_nav_wrapper li a:hover	{color: #ff7f7f;}
+
+.zdo_drawer_nav_wrapper ul:after	{content: "";
+	clear: both}
+
+
 
 
 /* ヘッダー画像 */
@@ -58,7 +93,7 @@ body	{margin: 0;
 	font-size: 14px;
 	text-decoration: none}
 
-.news li a:hover	{background-color: #eeeeee}
+/*.news li a:hover	{background-color: #eeeeee}*/
 
 /* みだし */
 .midashi h3{
@@ -89,15 +124,16 @@ background-color: black;
 .list	{white-space: pre;}
 
 /* コピーライト */
-.copyright p	{margin: 0;
-	color: #666666;
-	font-size: 14px}
+.copyright small	{margin: 0;
+	color: #666666;}
 
 /*ボックスの色*/
 .boxX {background-color: #33352B}
 
-.boxY, .boxA, .boxB, .box5 
+.boxY, .boxA, .boxB, .box5
 	{background-color: #F0F0EC}
+
+.boxC a:hover { color : #474b42 ; }
 
 
 .boxC_2 {background-color: #B5A8A8;
@@ -113,11 +149,15 @@ background-color: black;
 .kiji p{margin-bottom:5px;
 	line-height: 160%}
 
+.kiji ul li{
+	padding: 0vw 0vw 0.5vw 0vw;
+}
+
 .kiji img.hidari{float: left;
 	margin-top: 13px;
 	margin-right: 15px;
 	margin-bottom: 10px;}
-	
+
 
 .kiji img{
   position: relative;
@@ -132,6 +172,8 @@ background-color: black;
 
 .kiji pr{background-color: grey}
 
+.kiji .python{font-family:"courier"}
+
 /* サイドメニュー */
 .sidemenu	{margin-bottom: 30px}
 
@@ -145,7 +187,7 @@ background-color: black;
 	font-size: 14px;
 	text-decoration: none}
 
-.sidemenu li a:hover	{background-color: #C6D2CE}
+/*.sidemenu li a:hover	{background-color: #C6D2CE}*/
 
 .sidemenu h1	{margin-top: 0;
 	margin-bottom: 10px;
@@ -163,10 +205,11 @@ background-color: black;
 
 /* ボックスの左右 */
 
-.boxA, .box4, .box5
+.boxA, .box5
 	{padding-left: 10px;
 	padding-right: 10px}
 
+.box4{box-sizing:border-box;}
 
 /* 画面いっぱいに表示 */
 /*
@@ -178,10 +221,21 @@ body	{height:100%;
 	margin:0;}
 */
 
-.boxX	{height:100%;
+/*.boxX	{height:100%;
+	padding-bottom:10px}
+.boxY {height:100%;}
+*/
+.boxX	{width: auto;
+	height: auto;
+	min-height: 100vh;
 	padding-bottom:10px}
 
-.boxY {height:100%;}
+.boxY	{width: auto;
+	height: auto;
+	min-height: 100vh;}
+
+.boxZ{max-width: 1000px;
+	margin: 0 auto;}
 
 /*
 html {border:solid red}
@@ -193,6 +247,8 @@ body {border:solid blue}
 .boxX {border:solid blue}
 */
 
+/*背景色を設定*/
+body { background-color:#33352B;}
 
 /* ボックスの上下 */
 .boxA	{padding-top: 10px;
@@ -207,20 +263,23 @@ body {border:solid blue}
 	width:auto;}
 
 .box4	{padding-top: 25px;
-	padding-bottom: 25px;}
+	padding-bottom: 25px;
+	width:95%;
+	margin-left: 0px;
+	margin-right: auto;}
 
 .box5 {padding-top:30px;
 	padding-bottom:10px}
 
 /*ボックスの位置*/
-.box2 {position: relative;
-  display: block;
+.box2 {position: absolute;
+	display: block;
   width: auto;
   height: auto;
-  top: 47%;
-  right: 0;
-  bottom: 0;
-  left:-6%;
+  top: 62px;
+  right: 100px;
+  bottom: 0px;
+	left: 0px
   margin: auto}
 
 /* BOX3とBOX4を横に並べる設定 */
@@ -231,35 +290,357 @@ body {border:solid blue}
 	}
 
 .boxC	{float: left;
-	width: 70%}
+	width: 75%}
 
 .boxD	{float: left;
-	width: 30%}
+	width: 25%;}
+
+.boxD a{
+	position: relative;}
+
+.boxC a{
+	position: relative;}
 
 /* BOX3とBOX4の左右の間隔 */
-.boxC	{padding-right: 50px;
+.boxC	{padding-right: 20px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box}
 
 
-.boxD	{padding-left: 100px;
-	padding-right: 80px;
+.boxD	{padding-left: 20px;
+	padding-right: 20px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box}
+
+.zdo_drawer_menu * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.zdo_drawer_menu a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.zdo_drawer_menu a:visited {
+  color: inherit;
+}
+
+.zdo_drawer_menu .zdo_drawer_bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(51, 51, 51, 0.5);
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.zdo_drawer_menu .zdo_drawer_button {
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  width: 42px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  position: fixed;
+  top: 34px;
+  left: 140px;
+  z-index: 1001;
+  text-align: center;
+  outline: none;
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_bar {
+  width: 49px;
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_bar1 {
+  transform: rotate(30deg);
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_bar2 {
+  opacity: 0;
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_bar3 {
+  transform: rotate(-30deg);
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_menu_text {
+  display: none;
+}
+
+.zdo_drawer_menu .zdo_drawer_button.active .zdo_drawer_close {
+  display: block;
+}
+
+.zdo_drawer_menu .zdo_drawer_bar {
+  display: block;
+  height: 2px;
+  margin: 10px 0;
+  transition: all 0.2s;
+  transform-origin: 0 0;
+}
+
+.zdo_drawer_menu .zdo_drawer_text {
+  text-align: center;
+  font-size: 10px;
+}
+
+.zdo_drawer_menu .zdo_drawer_close {
+  letter-spacing: 0.08em;
+  display: none;
+}
+
+.zdo_drawer_menu .zdo_drawer_menu_text {
+  display: block;
+}
+
+.zdo_drawer_menu .zdo_drawer_nav_wrapper {
+  width: 312px;
+  height: 100%;
+  transition: all 0.2s;
+  transform: translate(312px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #F0F0EC;
+}
+
+.zdo_drawer_menu .zdo_drawer_nav_wrapper.open {
+  transform: translate(0);
+}
+
+.zdo_drawer_menu.left .zdo_drawer_button {
+  right: auto;
+  left: 32px;
+}
+
+.zdo_drawer_menu.left .zdo_drawer_nav_wrapper {
+  transform: translate(-312px);
+  right: auto;
+  left: 0;
+}
+
+.zdo_drawer_menu.left .zdo_drawer_nav_wrapper.open {
+  transform: translate(0);
+}
+
+/*+++ Default Navigation CSS +++*/
+.zdo_drawer_menu .zdo_drawer_nav {
+  padding: 112px 24px;
+}
+
+.zdo_drawer_menu .zdo_drawer_nav li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/*+++ Default Button Color +++*/
+.zdo_drawer_menu .zdo_drawer_button {
+  color: #33352B;
+}
+
+.zdo_drawer_menu .zdo_drawer_button .zdo_drawer_bar {
+  background-color: #33352B;
+}
+
+/*アコーディオンメニュー*/
+.st-accordion{
+    width:100%;
+    margin: 0 auto;
+}
+
+.st-accordion ul li{
+    height: 50px;
+    border-bottom: 1px solid #33352B;
+    border-top:1px solid #33352B;
+    overflow: hidden;
+}
+
+.st-accordion ul li{
+	border-top:none;
+}
+
+/*.st-accordion ul li:first-child{
+	border-top:none;
+  border-bottom:none;
+}
+*/
+
+.st-accordion ul li > a{
+    text-shadow: 1px 1px 1px #fff;
+    display: block;
+	position: relative;
+    line-height: 50px;
+	outline:none;
+    -webkit-transition:  color 0.2s ease-in-out;
+	-moz-transition:  color 0.2s ease-in-out;
+	-o-transition:  color 0.2s ease-in-out;
+	-ms-transition:  color 0.2s ease-in-out;
+	transition:  color 0.2s ease-in-out;
+}
+.st-accordion ul li > a:hover{
+    color: #ff7f7f;
+}
+
+.st-accordion ul li > a span{
+	background: transparent url(./images/down.png) no-repeat center center;
+	text-indent:-9000px;
+	width: 26px;
+	height: 14px;
+	position: absolute;
+	top: 50%;
+	right: -26px;
+	margin-top: -7px;
+	opacity:0;
+	-webkit-transition:  all 0.2s ease-in-out;
+	-moz-transition:  all 0.2s ease-in-out;
+	-o-transition:  all 0.2s ease-in-out;
+	-ms-transition:  all 0.2s ease-in-out;
+	transition:  all 0.2s ease-in-out;
+}
+.st-accordion ul li > a:hover span{
+	opacity:1;
+	right: 10px;
+}
+
+.st-accordion ul li.st-open > a{
+    color: #33352B;
+}
+.st-accordion ul li.st-open > a span{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+    transform:rotate(180deg);
+	right:10px;
+	opacity:1;
+}
+
+.st-content a:hover{
+    color: #ff7f7f;
+}
+
+.boxD .emp {color:#669999;
+	font-size: 15px;
+	font-weight:bold;}
+
 
 /* ########### 768px以上 ########### */
-@media (min-width: 768px) {
+@media screen and (min-width: 750px) {
 
 /* BOX1とBOX2を横に並べる設定 */
-.boxA:after	{content: "";
+	.boxA:after	{content: "";
 	display: block;
 	clear: both}
 
-.box1	{float: left;
-	width: 15%}
+	.box1	{float: left;
+	width: 20px}
 
-.box2	{float: left;
-	width: 85%}
+	.box2	{float: left;
+	width: 750px}
 
+}
+
+/* ########### 1000px以上 ########### */
+@media screen and (min-width: 1000px) {
+	.box4	{padding-left:0px;}
+	.boxB {position: relative;}
+	.box5	{padding-left:0px;}
+	.boxB {padding-left:0px;}
+	.zdo_drawer_menu {display:none;}
+	#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+  background: #33352B;
+  opacity: 0.6;
+  border-radius: 50%;
+	}
+	#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+	}
+	#page_top a::before{
+  font-family: FontAwesome;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+	}
+}
+
+/* ########### 1000px以下 ########### */
+@media screen and (max-width: 1000px) {
+	.box2{top: 22px;
+	right: 0px;
+	left: 130px;
+	display:none;}
+	.boxA {max-width: 100%;
+		box-sizing:border-box;
+		color:#F0F0EC;
+	  position: -webkit-sticky; /* Safari用 */
+    position:sticky; /* 要素をスクロールに応じて固定 */
+		top:0px;
+		z-index: 100;}
+	.zdo_drawer_menu .zdo_drawer_button {
+		position:absolute;
+		top: 26px;
+		left: 140px;
+	}
+}
+
+/* ########### 768px以下 ########### */
+@media screen and (max-width: 750px) {
+	.box1 img{width:100px}
+	.boxD {display:none;}
+	.boxC {width: 100%;
+		padding-right: 10px;}
+	.copyright p	{font-size: 13px}
+	.zdo_drawer_menu .zdo_drawer_button {
+		top: 22px;
+		left: 125px;
+	}
+}
+
+/* ########### 500px以下 ########### */
+@media screen and (max-width: 500px) {
+	body	{font-size: 13px;}
+	.zdo_drawer_menu .zdo_drawer_button {top:29px;}
+	.kiji .python {font-size: 13px;}
+	.zdo_drawer_menu .zdo_drawer_button {
+		top: 20px;
+		left: 123px;
+	}
+}
