@@ -12,7 +12,8 @@ body	{margin: 0;
 /*リンクの表示設定*/
 a {color: #000;
 	transition: .4s;
-}
+	text-decoration: none}
+
 a:link      { color : #E6E6E6 ; }
 a:visited  { color : #E6E6E6 ; }
 a:hover    { color : #ff7f7f ; }
