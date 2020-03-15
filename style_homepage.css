@@ -2,14 +2,15 @@
 
 
 body	{margin: 0;
-	font-family: 'Bitter', 'Noto Sans Japanese';
+	font-family: 'Fira+Sans', 'Noto Sans Japanese';
 	word-break: break-word;
 	overflow-wrap: break-word;
 	background-color:#33352B;
 	-webkit-text-size-adjust: 100%;}
 
-.box4 .emp {color:#669999;
-	font-weight:bold;}
+.box4 .emp {color:black;
+	font-weight:bold;
+	background: linear-gradient(transparent 80%, #d4acad 20%);}
 
 .box4 .emp_g {color:#bc8f8f;
 	font-weight:bold;}
@@ -21,7 +22,7 @@ a {color: #000;
 
 a:link      { color : #666666 ; }
 a:visited  { color : #666666 ; }
-a:hover    { color : #f8b862 ; }
+a:hover    { color : #c97586 ; }
 
 /* サイト名 */
 .site h1 a	{color: #000000;
@@ -49,7 +50,7 @@ a:hover    { color : #f8b862 ; }
 	transition: .4s;}
 
 
-.menu li a:hover	{color: #f8b862;}
+.menu li a:hover	{color: #c97586;}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -74,7 +75,7 @@ a:hover    { color : #f8b862 ; }
 	text-decoration: none;
 	transition: .4s;}
 
-.zdo_drawer_nav_wrapper li a:hover	{color: #f8b862;}
+.zdo_drawer_nav_wrapper li a:hover	{color: #c97586;}
 
 .zdo_drawer_nav_wrapper ul:after	{content: "";
 	clear: both}
@@ -461,7 +462,7 @@ body {border:solid blue}
     transition: .4s;
 }
 .square_btn35:hover {
-    color:#f8b862;
+    color:#c97586;
 }
 .square_btn35:before,.square_btn35:after{
   position: absolute;

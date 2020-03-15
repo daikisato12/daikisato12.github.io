@@ -2,7 +2,7 @@
 
 
 body	{margin: 0;
-	font-family: 'Bitter', 'Noto Sans Japanese';
+	font-family: 'Fira+Sans', 'Noto Sans Japanese';
 	word-break: break-word;
 	overflow-wrap: break-word;
 	background-color:#33352B;
@@ -16,7 +16,7 @@ a {color: #000;
 
 a:link      { color : #E6E6E6 ; }
 a:visited  { color : #E6E6E6 ; }
-a:hover    { color : #f8b862 ; }
+a:hover    { color : #c97586 ; }
 
 /* サイト名 */
 .site h1 a	{color: #000000;
@@ -38,7 +38,7 @@ a:hover    { color : #f8b862 ; }
 	text-decoration: none;
 	transition: .4s}
 
-.menu li a:hover	{color: #f8b862;}
+.menu li a:hover	{color: #c97586;}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -63,7 +63,7 @@ a:hover    { color : #f8b862 ; }
 	text-decoration: none;
 	transition: .4s}
 
-.zdo_drawer_nav_wrapper li a:hover	{color: #f8b862;}
+.zdo_drawer_nav_wrapper li a:hover	{color: #c97586;}
 
 .zdo_drawer_nav_wrapper ul:after	{content: "";
 	clear: both}
@@ -501,7 +501,7 @@ body { background-color:#33352B;}
 	transition:  color 0.2s ease-in-out;
 }
 .st-accordion ul li > a:hover{
-    color: #f8b862;
+    color: #c97586;
 }
 
 .st-accordion ul li > a span{
@@ -537,7 +537,7 @@ body { background-color:#33352B;}
 }
 
 .st-content a:hover{
-    color: #f8b862;
+    color: #c97586;
 }
 
 .boxD .emp {color:#669999;
