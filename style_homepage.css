@@ -17,10 +17,11 @@ body	{margin: 0;
 /*リンクの表示設定*/
 a {color: #000;
 	transition: .4s;
-}
+	text-decoration: none}
+
 a:link      { color : #666666 ; }
 a:visited  { color : #666666 ; }
-a:hover    { color : #ff7f7f ; }
+a:hover    { color : #f8b862 ; }
 
 /* サイト名 */
 .site h1 a	{color: #000000;
@@ -48,7 +49,7 @@ a:hover    { color : #ff7f7f ; }
 	transition: .4s;}
 
 
-.menu li a:hover	{color: #ff7f7f;}
+.menu li a:hover	{color: #f8b862;}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -73,7 +74,7 @@ a:hover    { color : #ff7f7f ; }
 	text-decoration: none;
 	transition: .4s;}
 
-.zdo_drawer_nav_wrapper li a:hover	{color: #ff7f7f;}
+.zdo_drawer_nav_wrapper li a:hover	{color: #f8b862;}
 
 .zdo_drawer_nav_wrapper ul:after	{content: "";
 	clear: both}
@@ -128,7 +129,7 @@ background-color: black;
 .midashi h3:after {right: 0;}
 
 /* ポスター賞 */
-.box4 t{color: #CC6666;
+.box4 t{color: #a25768;
 	font-weight:bold;}
 
 /*altmetricsの位置*/
@@ -194,9 +195,14 @@ background-color: black;
 li {
   line-height: 1.5;
 }
-/* ポスター賞 */
+
 .box4 j{font-weight:bold;
-				font-style:italic}
+				font-style:italic;
+				color:#a25768}
+
+.box4 inf{font-size:80%;
+					margin-top:4px;
+					margin-bottom:4px}
 
 /* コピーライト */
 .copyright small	{margin: 0;
@@ -455,7 +461,7 @@ body {border:solid blue}
     transition: .4s;
 }
 .square_btn35:hover {
-    color:#ff7f7f;
+    color:#f8b862;
 }
 .square_btn35:before,.square_btn35:after{
   position: absolute;
