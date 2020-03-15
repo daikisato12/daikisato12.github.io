@@ -38,7 +38,7 @@ a:hover    { color : #f8b862 ; }
 	text-decoration: none;
 	transition: .4s}
 
-.menu li a:hover	{color: #ff7f7f;}
+.menu li a:hover	{color: #f8b862;}
 
 .menu ul:after	{content: "";
 	display: block;
@@ -63,7 +63,7 @@ a:hover    { color : #f8b862 ; }
 	text-decoration: none;
 	transition: .4s}
 
-.zdo_drawer_nav_wrapper li a:hover	{color: #ff7f7f;}
+.zdo_drawer_nav_wrapper li a:hover	{color: #f8b862;}
 
 .zdo_drawer_nav_wrapper ul:after	{content: "";
 	clear: both}
@@ -501,7 +501,7 @@ body { background-color:#33352B;}
 	transition:  color 0.2s ease-in-out;
 }
 .st-accordion ul li > a:hover{
-    color: #ff7f7f;
+    color: #f8b862;
 }
 
 .st-accordion ul li > a span{
@@ -537,7 +537,7 @@ body { background-color:#33352B;}
 }
 
 .st-content a:hover{
-    color: #ff7f7f;
+    color: #f8b862;
 }
 
 .boxD .emp {color:#669999;
