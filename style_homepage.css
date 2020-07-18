@@ -134,6 +134,11 @@ background-color: black;
 	font-weight:bold;}
 
 /*altmetricsの位置*/
+.altmetric-table{
+	height: 8em;
+	position: relative;
+	width: 5%;
+}
 
 .altmetric-embed{
 	position: absolute;
