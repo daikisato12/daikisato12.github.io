@@ -135,10 +135,18 @@ background-color: black;
 
 /*altmetricsの位置*/
 
-.altmetric-embed{
+.altmetric-table{
+	padding-right: 10%;
+	padding-left: 10%;
+	height: 8em;
+	position: relative;
 	width: 5%;
-	right:10px;
-	padding-left:60px;
+}
+
+.altmetric-embed{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 
 .altmetric-bar{
@@ -588,6 +596,13 @@ body {border:solid blue}
 	}
 	.box4 .face img{width:80px}
 
+	.altmetric-table{
+		padding-right: 0%;
+		padding-left: 0%;
+		height: 8em;
+		position: relative;
+		width: 5%;
+	}
 	.altmetric-embed{
 		display:none;
 	}
