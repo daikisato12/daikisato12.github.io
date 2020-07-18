@@ -141,6 +141,8 @@ background-color: black;
 }
 
 .altmetric-embed{
+	padding-right: 10%;
+	padding-left: 10%;
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
