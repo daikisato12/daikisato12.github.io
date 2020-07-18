@@ -140,7 +140,6 @@ background-color: black;
 }
 
 .tb2{
-	padding-right: 10%;
 	height: 8em;
 	position: relative;
 	width: 5%;
@@ -278,6 +277,7 @@ body {border:solid blue}
 
 .box4	{padding-top: 25px;
 	padding-bottom: 25px;
+	margin-right: 10%;
 	width:95%;}
 
 /*ボックスの位置*/
@@ -569,6 +569,8 @@ body {border:solid blue}
 		top: 26px;
 		left: 140px;
 	}
+
+	.tb2{padding-right: 10%}
 }
 
 /* ########### 768px以下 ########### */
@@ -581,6 +583,7 @@ body {border:solid blue}
 	}
 	.box4 .face img{margin-left:5px;
 		margin-top: 18px}
+
 }
 
 /* ########### 500px以下 ########### */
