@@ -134,7 +134,13 @@ background-color: black;
 	font-weight:bold;}
 
 /*altmetricsの位置*/
-.altmetric-table{
+.tb1{
+	padding-right: 5%;
+	position: relative;
+}
+
+.tb2{
+	padding-right: 10%;
 	height: 8em;
 	position: relative;
 	width: 5%;
