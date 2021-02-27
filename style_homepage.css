@@ -110,6 +110,9 @@ a:hover    { color : #c97586 ; }
 .top li a:hover	{background-color: #eeeeee}
 
 /* お知らせ */
+.news {
+	padding-bottom: 2em;
+}
 ul.news_list li span {
 	display: inline-block;
 	width: 9.5em;
@@ -118,16 +121,22 @@ ul.news_list li span {
 
 ul.news_list {
 	position: relative;
-	padding: 0.5em;
-	border: solid 1px #333631;
+	background-color:#e1e4e1;/*背景色*/
+	border-left: 5px dotted #333631;
+	box-shadow: 0 0 0 5 #f8f0d7;
+/*	border: solid 3px #333631;/*線*/
+/*	border-radius: 2px;/*角の丸み*/
+	
 	list-style-type: none;
 	height: 160px;
 	overflow: scroll;
+	padding: 0.5em 0.5em 0.5em 9.5em;
+	text-indent: -9.5em;
 }
+
 ul.news_list li {
 	padding: 0.5em 0 0.5em 1.4em;
 	line-height: 1.5;
-	border-bottom: 1px dashed #333631;
 }
 ul.news_list li::before {
 	position: absolute;
