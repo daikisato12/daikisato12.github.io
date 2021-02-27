@@ -90,24 +90,77 @@ a:hover    { color : #c97586 ; }
 /* 顔写真 */
 .box4 .face img{margin-top: 25px}
 
-/* お知らせ */
-.news h1	{margin-top: 0;
+/* ようこそ */
+.top h1	{margin-top: 0;
 	margin-bottom: 15px;
 	font-size: 25px;
 	color: #666666}
 
-.news ol	{margin: 0;
+.top ol	{margin: 0;
 	padding: 0;
 	list-style: none}
 
-.news li a	{display: block;
+.top li a	{display: block;
 	padding: 5px;
 	border-bottom: dotted 2px #dddddd;
 	color: #000000;
 	font-size: 15px;
 	text-decoration: none}
 
-.news li a:hover	{background-color: #eeeeee}
+.top li a:hover	{background-color: #eeeeee}
+
+/* お知らせ */
+ul.news_list li span {
+	display: inline-block;
+	width: 9.5em;
+	text-indent:0;
+}
+
+ul.news_list {
+	position: relative;
+	padding: 0.5em;
+	border: solid 1px #333631;
+	list-style-type: none;
+	height: 160px;
+	overflow: scroll;
+}
+ul.news_list li {
+	padding: 0.5em 0 0.5em 1.4em;
+	line-height: 1.5;
+	border-bottom: 1px dashed #333631;
+}
+ul.news_list li::before {
+	position: absolute;
+	content: "
+ul.news_list {
+position: relative;
+padding: 0.5em;
+border: solid 1px #333631;
+list-style-type: none;
+}
+ul.news_list li {
+padding: 0.5em 0 0.5em 1.4em;
+line-height: 1.5;
+border-bottom: 1px dashed #333631;
+}
+ul.news_list li::before {
+position: absolute;
+content: "\002713";
+color: #333631;
+font-weight: bold;
+left : 0.5em;
+}
+ul.news_list li:last-of-type {
+border-bottom: none;
+}
+2713";
+	color: #333631;
+	font-weight: bold;
+	left : 0.5em;
+}
+ul.news_list li:last-of-type {
+	border-bottom: none;
+}
 
 /* みだし */
 .midashi h3{
