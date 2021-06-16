@@ -22,7 +22,7 @@ a {color: #000;
 
 a:link      { color : #666666 ; }
 a:visited  { color : #666666 ; }
-a:hover    { color : #c97586 ; }
+a:hover    { color : #c99ba7 ; }
 
 /* サイト名 */
 .site h1 a	{color: #000000;
@@ -50,7 +50,7 @@ a:hover    { color : #c97586 ; }
 	transition: .4s;}
 
 
-.menu li a:hover	{color: #c97586;}
+.menu li a:hover	{color: #c99ba7;}
 
 .menu ul:after	{content: "";
 	display: block;
