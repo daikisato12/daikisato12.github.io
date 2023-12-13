@@ -115,7 +115,7 @@ a:hover    { color : #c99ba7 ; }
 }
 ul.news_list li span {
 	display: inline-block;
-	width: 9.5em;
+	width: 12em;
 	text-indent:0;
 }
 
@@ -130,8 +130,8 @@ ul.news_list {
 	list-style-type: none;
 	height: 160px;
 	overflow: scroll;
-	padding: 0.5em 0.5em 0.5em 9.5em;
-	text-indent: -9.5em;
+	padding: 0.5em 0.5em 0.5em 12em;
+	text-indent: -12em;
 }
 
 ul.news_list li {
