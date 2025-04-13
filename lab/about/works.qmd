@@ -1,0 +1,27 @@
+---
+title: "🎓 Miscellaneous"
+lang: ja
+format: html
+---
+
+## 🎓 Miscellaneous
+
+### Articles
+1. <u>**佐藤大気**</u> (2018) シンポジウム参加記. <a href="http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20181121141552-44CB7B0E0F1DAAE7E7AD49FA0FCE7B35ECED8748420C1743A51B1F782D2CB8AA.pdf" target="_blank">日本進化学会ニュースvol.19 No.3 </a>
+1. <u>**佐藤大気**</u>, 河田雅圭 (2018) 精神疾患関連遺伝子から探る、人のこころの進化. <a href="https://academist-cf.com/journal/?p=8376" target="_blank">academist Journal</a>
+1. <u>**佐藤大気**</u> (2019) 精神疾患を生み出す遺伝子とその進化. <a href="https://laborify.net/2019/02/24/sato-evolution-psychiatric-disorders/" target="_blank">Laborify</a>
+1. 井上（上野）由紀子, 早瀬ヨネ子, 星野幹雄, <u>**佐藤大気**</u>, 河田雅圭, 佐久間哲史, 山本卓, 井上高良 (2021) ヒト化マウスを用いて脳神経系の多様性を読み解く. <a href="http://hokuryukan-ns.co.jp/cms/books/%E6%9C%88%E5%88%8A%E3%80%8C%E7%B4%B0%E8%83%9E%E3%80%8D2021%E5%B9%B4-6%E6%9C%88%E5%8F%B7%E3%80%80%E3%82%B2%E3%83%8E%E3%83%A0%E7%B7%A8%E9%9B%86%E3%81%AB%E3%82%88%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84/" target="_blank">月間細胞6月号</a>
+1. <u>**佐藤大気**</u> (2021) シンポジウム参加記. <a href="http://sesj.kenkyuukai.jp/images/sys/information/20211129125608-BCF43713AE67766398DFC16FE007639A78000DF58A30CE3999AA1033BF117E4A.pdf" target="_blank">日本進化学会ニュースvol.22 No.3 </a>
+1. 佐藤光彦, <u>**佐藤大気**</u>, 本宮万愛 (2022) 変動環境における研究者の行動変容.（日本進化学会　教育啓発賞受賞記） <a href="http://sesj.kenkyuukai.jp/images/sys/information/20220328135814-B5D86621780DD58FBAF83E8432BC3A456B9A9178B8E698E1655448FB431532AF.pdf" target="_blank">日本進化学会ニュースvol.23 No.1 </a>
+1. <u>**佐藤大気**</u>, 河田雅圭 (2024) 個性の進化. <a href="https://www.igaku-shoin.co.jp/journal/detail/41136" target="_blank">生体の科学2024年2月号 特集 脳と個性</a>
+
+### Book chapters
+1. 河田雅圭, <u>**佐藤大気**</u> (2021) 個性学入門 ―個性創発の科学― 第9章 個性の進化. <a href="https://www.asakura.co.jp/books/isbn/978-4-254-10295-6/" target="_blank">朝倉書店</a>, <a href="https://www.amazon.co.jp/gp/product/425410295X?pf_rd_r=8DK02GWK00ESMWYPWN0M&pf_rd_p=3a18ae70-29cd-40df-b252-334783771910&pd_rd_r=abd065ba-a5dc-41e6-9f7f-39463e0879ca&pd_rd_w=Gm43e&pd_rd_wg=Wp8kE&ref_=pd_gw_unk" target="_blank">Amazon</a></li>
+
+### Media
+1. _Evolution Letters_ Editor's Blog：<a href="https://evolutionletters.wordpress.com/2018/08/21/the-evolution-of-psychiatric-disorders-and-human-personality-traits/" target="_blank">The evolution of psychiatric disorders and human personality traits</a></li>
+1. _Science_ Editor's Choice：<a href="https://www.science.org/doi/10.1126/science.2018.362.6410.twil" target="_blank">Evolving risks to personality</a></li>
+1. 日本経済新聞：<a href="https://www.nikkei.com/article/DGXZQOGG07CNN0X00C21A1000000" target="_blank">遺伝子が導く優しさ　動物や人類に宿る「人好き」気質</a></li>
+1. 日本経済新聞：<a href="https://www.nikkei.com/article/DGXZQOUC247AG0U3A720C2000000" target="_blank">アメリカザリガニ、低温に耐性　関連の遺伝子を特定</a></li>
+1. NHK BS：<a href="https://www.nhk.jp/p/ts/X4VK5R2LR1/episode/te/X4L858PVK4/" target="_blank">ヒューマニエンス 「“快楽” ドーパミンという天使と悪魔」</a></li>
+1. NHK BS：<a href="https://www.nhk.jp/p/ts/X4VK5R2LR1/episode/te/RY39L5L465/" target="_blank">ヒューマニエンス 「“不安” ヒトが“自らつくった”進化のカギ」</a></li>

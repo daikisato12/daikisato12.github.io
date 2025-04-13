@@ -1,0 +1,14 @@
+---
+title: "💡 Tips"
+lang: en
+otherlang: "/lab/tips.html"
+toc-title: ""
+format: html
+---
+::: lang-switcher
+[日本語]({{< meta otherlang >}})
+:::
+
+## 💡 Tips
+
+🚧 Under construction...

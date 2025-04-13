@@ -1,0 +1,13 @@
+---
+title: "✨ Fundings"
+lang: ja
+otherlang: "/lab/about/fundings.html"
+format: html
+---
+::: lang-switcher
+[日本語]({{< meta otherlang >}})
+:::
+
+## ✨ Fundings
+
+🚧 Under construction...

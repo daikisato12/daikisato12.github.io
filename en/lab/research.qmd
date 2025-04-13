@@ -1,0 +1,14 @@
+---
+title: "🔬 Research"
+lang: en
+otherlang: /lab/research.html
+toc-title: ""
+format: html
+---
+::: lang-switcher
+[日本語]({{< meta otherlang >}})
+:::
+
+## 🔬 Research
+
+🚧 Under construction...

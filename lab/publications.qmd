@@ -1,0 +1,131 @@
+---
+title: "🖋️ Publications"
+lang: ja
+format: html
+---
+
+## 🖋️ Publications
+
+\†: equally contributed<br>
+\*: corresponding author<br>
+See <a href="https://scholar.google.co.jp/citations?user=tVVWGBMAAAAJ&hl=ja" target="_blank">Google Scholar</a> for a full list of publications.
+
+### Preprint / Under review
+1. <u>**Sato D. X.**</u>\*, Y. Takahashi\* (2024) <a href="https://www.biorxiv.org/content/10.1101/2024.03.14.584951v1" target="_blank">Neurogenomic diversity enhances collective antipredator performance in _Drosophila_.</a> ***bioRxiv***
+1. Okuyama T., <u>**D.X. Sato**</u>\*, Y. Takahashi\* (2024) <a href="https://www.biorxiv.org/content/10.1101/2024.08.19.608728v1" target="_blank">Genetic heterogeneity induces nonadditive behavioural changes in _Drosophila_.</a> ***bioRxiv***
+1. XX XX, ..., <u>**D.X. Sato**</u>, ..., XX XX (2025) XXXXX. ***Accepted***
+1. <u>**Sato D. X.**</u>\* (2025) XXXXX. ***Submitted***
+
+### Peer-reviewed papers in international journals
+<div class="pub-entry">
+<div class="pub-text">
+9. <u>**Sato D. X.**</u>\*, T. Okuyama, Y. Takahashi\* (2025)
+<a href="https://www.nature.com/articles/s41597-025-04724-3" target="_blank">
+Multifaceted and extensive behavioral trajectories of genomically diverse _Drosophila_ lines.
+</a> ***Scientific Data***, 12:400
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1038/s41597-025-04724-3" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+8. Hagihara H., H. Shoji, ..., <u>**D.X. Sato**</u> (125/131), ..., T. Miyakawa (2024)
+<a href="https://elifesciences.org/articles/89376" target="_blank">
+Large-scale animal model study uncovers altered brain pH and lactate levels as a transdiagnostic endophenotype of neuropsychiatric disorders involving cognitive impairment.
+</a> ***eLife***, 12:RP89376
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.7554/eLife.89376.3" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+7. <u>**Sato D. X.**</u>\*, Y. Matsuda, N. Usio, R. Funayama, K. Nakayama, T. Makino* (2023)
+<a href="https://doi.org/10.1016/j.isci.2023.107267" target="_blank">
+Genomic adaptive potential to cold environments in the invasive red swamp crayfish.
+</a> ***iScience***, 26(8):107267
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1016/j.isci.2023.107267" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+6. <u>**Sato D. X.**</u>\†, Y. U. Inoue\†, N. Kuga, S. Hattori, K. Nomoto, Y. Morimoto, G. Sala, H. Hagihara, T. Kikusui, T. Sasaki, Y. Ikegaya, T. Miyakawa, T. Inoue, M. Kawata (2022)
+<a href="https://doi.org/10.1016/j.isci.2022.104800" target="_blank">
+Humanized substitutions of _Vmat1_ in mice alter amygdala-dependent behaviors associated with the evolution of anxiety.
+</a> ***iScience***, 25(8):104800
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1016/j.isci.2022.104800" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+5. Chen J., H. Bi, M.E. Pettersson, <u>**D.X. Sato**</u>, A.P. Fuentes-Pardo, C. Mo, S. Younis, O. Wallerman, P. Jern, G. Molés, A. Gómez, G. Kleinau, P. Scheerer, L. Andersson (2021)
+<a href="https://www.nature.com/articles/s42003-021-02307-7" target="_blank">
+Functional differences between _TSHR_ alleles associate with variation in spawning season in Atlantic herring.
+</a> ***Communications Biology***, 4:795.
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1038/s42003-021-02307-7" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+4. <u>**Sato D. X.**</u>\†, N. Rafati\†, H. Ring, S. Younis, C. Feng, J.A. Blanco-Aguiar, C.-J. Rubin, R. Villafuerte, F. Hallböök, M. Carneiro, L. Andersson (2020)
+<a href="https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evaa158/5896528" target="_blank">
+Brain transcriptomics of wild and domestic rabbits suggests that changes in dopamine signaling and ciliary function contributed to evolution of tameness.
+</a> ***Genome Biology and Evolution***, 12(10):1918–1928.
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1093/gbe/evaa158" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+3. Ikemoto A., <u>**D.X. Sato**</u>, T. Makino, M. Kawata (2020)
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/ece3.6342" target="_blank">
+Genetic factors for short life span associated with evolution of the loss of flight ability.
+</a> ***Ecology and Evolution***, 10:6020–6029.
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1002/ece3.6342" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+2. <u>**Sato D. X.**</u>, Y. Ishii, T. Nagai, K. Ohashi, M. Kawata (2019)
+<a href="https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-019-1543-8" target="_blank">
+Human-specific mutations in VMAT1 confer functional changes and multi-directional evolution in the regulation of monoamine circuits.
+</a> ***BMC Evolutionary Biology***, 19:220.
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1186/s12862-019-1543-8" data-badge-type="donut"></div>
+</div>
+</div>
+
+<div class="pub-entry">
+<div class="pub-text">
+1. <u>**Sato D. X.**</u> and M. Kawata (2018)
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/evl3.81" target="_blank">
+Positive and balancing selection on _SLC18A1_ gene associated with psychiatric disorders and human-unique personality traits.
+</a> ***Evolution Letters***, 2(5):499–510.
+</div>
+<div class="pub-badge">
+<div class="altmetric-embed" data-doi="10.1002/evl3.81" data-badge-type="donut"></div>
+</div>
+</div>
+
+### Peer-reviewed papers in Japanese journals
+1. 松田一流, 荒井幸代, 佐藤大気, 高橋佑磨 (2022) <a href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_4L3GS1001/_article/-char/ja/" target="_blank">ショウジョウバエの行動解析における逆強化学習の適用可能性.</a> ***人工知能学会全国大会論文集***<br>
+
+<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>

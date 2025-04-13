@@ -1,0 +1,14 @@
+---
+title: "🔬 Research"
+sidebar-title: "Research"
+lang: ja
+otherlang: /en/lab/research.html
+format: html
+---
+::: lang-switcher
+[English]({{< meta otherlang >}})
+:::
+
+## 🔬 Research
+
+🚧 工事中...

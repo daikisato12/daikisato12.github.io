@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  search: true  # ← 🔍検索窓を確実に表示させる
+  title: "Daiki Sato's page"
+  sidebar:
+    logo: /images/logo.png
+    style: "floating"
+    contents:
+      - text: "🏠 Home"
+        href: index.qmd
+      - section: "🔎 Info"
+        contents:
+        - section: "🧑 About DXS"
+          contents:
+            - file: lab/about/profile.qmd
+            - file: lab/about/works.qmd
+            - file: lab/about/fundings.qmd
+        - file: lab/research.qmd
+        - file: lab/publications.qmd
+        - file: lab/tips.qmd
+      - text: "---"
+
+    # ↓ 英語ページ：パンくず用に含めるがサイドバーには出さない
+      - section: false
+        contents:
+          - section: "🔎 Info"
+            contents:
+            - section: "🧑 About DXS"
+              contents:
+              - file: en/lab/about/profile.qmd
+                sidebar: false
+              - file: en/lab/about/works.qmd
+                sidebar: false
+              - file: en/lab/about/fundings.qmd
+                sidebar: false
+            - file: en/lab/research.qmd
+              sidebar: false
+            - file: en/lab/publications.qmd
+              sidebar: false
+            - file: en/lab/tips.qmd
+              sidebar: false
+
+format:
+  html:
+    theme: United
+    css: styles.css
+    include-in-header: fonts.html

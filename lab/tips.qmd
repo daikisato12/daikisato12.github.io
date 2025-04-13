@@ -1,0 +1,13 @@
+---
+title: "💡 Tips"
+lang: ja
+otherlang: "/en/lab/tips.html"
+format: html
+---
+::: lang-switcher
+[English]({{< meta otherlang >}})
+:::
+
+## 💡 Tips
+
+🚧 工事中...

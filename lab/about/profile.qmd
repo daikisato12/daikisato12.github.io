@@ -1,0 +1,47 @@
+---
+title: "👓 Profile"
+lang: ja
+otherlang: "/en/lab/about/profile.html"
+format: html
+---
+::: lang-switcher
+[English]({{< meta otherlang >}})
+:::
+
+## 👓 Profile
+
+**佐藤 大気（さとう だいき） Ph.D.**<br>
+千葉大学 国際高等研究基幹（兼任）大学院理学研究院 特任助教<br>
+<a href="https://digitalevosemi.jimdofree.com" target="_blank">デジタル進化生物セミナー</a> 共同世話人<br>
+
+**連絡先：**<br>
+千葉大学 自然科学系総合研究棟1 404<br>
+daiki.sato12[at]gmail.com<br>
+
+### 経歴
+<table class="timeline">
+  <tr><td class="date">2023年7月–</td><td>千葉大学国際高等研究基幹（兼任）大学院理学研究院 特任助教</td></tr>
+  <tr><td class="date">2022年4月–2023年6月</td><td>藤田医科大学医科学研究センター システム医科学研究部門 助教</td></tr>
+  <tr><td class="date">2021年4月–2022年3月</td><td>千葉大学大学院理学研究院 <a href="http://ecology.chiba-u.com" target="_blank">機能生態学研究室</a><br>日本学術振興会 特別研究員PD（DC2から切り替え）</td></tr>
+  <tr><td class="date">2020年4月–2021年3月</td><td>日本学術振興会 特別研究員DC2</td></tr>
+  <tr><td class="date">2019年3月–9月</td><td>ウプサラ大学 Leif Andersson研究グループ 訪問博士学生（<a href="http://gp-ds.tohoku.ac.jp/ja/achievements/overseas-training/2018_satou.html">留学記</a>）</td></tr>
+  <tr><td class="date">2017年10月–2021年3月</td><td>東北大学大学院生命科学研究科 博士後期課程</td></tr>
+  <tr><td class="date">2015年4月–2017年9月</td><td>東北大学大学院生命科学研究科 博士前期課程</td></tr>
+  <tr><td class="date">2011年4月–2015年3月</td><td>東北大学理学部生物学科</td></tr>
+  <tr><td class="date">1992年12月</td><td>千葉県生まれ</td></tr>
+</table>
+
+### 受賞
+<table class="timeline">
+  <tr><td class="date">2024年10月</td><td>**Travel Award**, International Society for Behavioural Ecology Congress</td></tr>
+  <tr><td class="date">2024年2月</td><td>**井上研究奨励賞**, 井上科学振興財団</td></tr>
+  <tr><td class="date">2021年8月</td><td>**Best Poster Award**, The 80th Fujihara Seminar</td></tr>
+  <tr><td class="date">2021年8月</td><td>**教育啓発賞**, 日本進化学会</td></tr>
+  <tr><td class="date">2021年3月</td><td>**総長賞**, 東北大学</td></tr>
+  <tr><td class="date">2021年3月</td><td>**青葉理学振興会賞**, 東北大学 青葉理学振興会</td></tr>
+  <tr><td class="date">2021年2月</td><td>**優秀ポスター賞**, 理学・生命科学2研究科合同オンラインシンポジウム2021</td></tr>
+  <tr><td class="date">2020年12月</td><td>**ポスター優秀発表賞**, 新学術領域「個性」創発脳　第5回領域会議</td></tr>
+  <tr><td class="date">2018年8月</td><td>**学生口頭発表優秀賞**, 日本進化学会第20回大会</td></tr>
+  <tr><td class="date">2017年8月</td><td>**優秀ポスター発表賞**, 第6回生命医薬情報学連合大会（IIBMP 2017）</td></tr>
+  <tr><td class="date">2017年8月</td><td>**優秀学生ポスター発表賞**, 日本進化学会第19回大会</td></tr>
+</table>

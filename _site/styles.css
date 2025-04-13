@@ -1,0 +1,179 @@
+/* 最初の h1（Quarto が自動出力するページタイトル）を非表示にする */
+main h1:first-of-type {
+  display: none;
+}
+
+body {
+  font-size: 0.95rem;  /* ← デフォルトは1rem（= 16px） */
+}
+
+/* 日本語だけを指定フォントで描画（英語はテーマのまま） */
+@font-face {
+  font-family: 'JapaneseFont';
+  src: local('Zen Kaku Gothic Antique', 'Noto Sans JP');
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 240px !important;        /* ← サイドバーの横幅 */
+    flex-shrink: 0 !important;
+  }
+
+  .sidebar-title {
+    width: 240px !important;        /* ロゴの背景などがズレないように */
+  }
+
+  .sidebar-item-container {
+    margin-bottom: 0.6rem;  /* ← デフォルトより広めにする */
+  }
+
+  .quarto-container {
+    display: flex;
+  }
+
+  .content {
+    margin-left: 0 !important;
+  }
+}
+
+/* 通常は非表示にする（スマホ以外で） */
+.mobile-top-logo {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-top-logo {
+    display: block;
+    width: 100%;              /* ← 幅を100%まで広げる */
+    max-width: 300px;         /* ← 画像自体の最大サイズを大きめに */
+    max-height: none;         /* ← 高さ制限を解除 */
+    margin: 1rem auto;
+  }
+}
+
+/* メイン内の番号付きリストだけ逆順にする (パンくずリストには一切影響を与えないようにする) */
+main ol:not(.breadcrumb) {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+main ol:not(.breadcrumb) li {
+  margin-bottom: 10px !important;
+}
+
+/* 言語切り替え設定 */
+.lang-switcher {
+  position: fixed;
+  bottom: 10px;
+  right: 16px;
+  z-index: 1000;
+}
+
+.lang-switcher a {
+  display: inline-block;
+  background-color: #cd5e3c;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease;
+}
+
+.lang-switcher a:hover {
+  background-color: #513743;
+}
+
+/* News box */
+.news-wrapper {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.news-header {
+  background-color: #cd5e3c;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.news-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 1rem 1.2rem;
+  max-height: 6.5em;
+  overflow-y: auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.news-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.news-box li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.news-date {
+  flex: 0 0 7em;           /* ← 日付の固定幅（調整可能） */
+  font-weight: bold;
+  color: #555;
+}
+
+.news-body {
+  flex: 1;
+  word-break: break-word;
+}
+
+
+/* Publication */
+.pub-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* ← ここがポイント！中央に揃える */
+  gap: 16px;
+  margin-bottom: 0.5em;
+}
+
+.pub-text {
+  flex: 1;
+}
+
+.pub-badge {
+  flex-shrink: 0;
+  margin-bottom: 1em;
+}
+
+/* Profile */
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;        /* ← さらに必要ならこれも */
+}
+
+table.timeline {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+}
+
+table.timeline td {
+  padding: 0.2em 1em 0.2em 0;
+  vertical-align: top;
+}
+
+table.timeline .date {
+  white-space: nowrap;
+}

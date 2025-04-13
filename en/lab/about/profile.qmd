@@ -1,0 +1,13 @@
+---
+title: "👓 Profile"
+lang: en
+otherlang: "/lab/about/profile.html"
+format: html
+---
+::: lang-switcher
+[日本語]({{< meta otherlang >}})
+:::
+
+## 👓 Profile
+
+🚧 Under construction...
