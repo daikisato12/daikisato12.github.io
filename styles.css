@@ -158,7 +158,7 @@ main ol:not(.breadcrumb) li {
   display: inline-block;
   align-items: center;  /* 中央に揃える */
   border-radius: 8px;       /* 任意：角を少し丸める */
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);  /* 任意：見やすさUP */
+  box-shadow: none;  /* 任意：見やすさUP */
 }
 
 /* 不要ならキャプションも非表示に */
