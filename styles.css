@@ -49,7 +49,7 @@ body {
   display: none;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .mobile-top-logo {
     display: block;
     width: 100%;              /* ← 幅を100%まで広げる */
@@ -185,7 +185,7 @@ main ol:not(.breadcrumb) li {
 }
 
 /* スマホ時：縦並びで画像→文章の順 */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .two-column {
     flex-direction: column;
   }
