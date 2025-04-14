@@ -188,8 +188,35 @@ main ol:not(.breadcrumb) li {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1026px) {
+  .two-column {
+    display: flex;
+    flex-wrap: nowrap;           /* 折り返しを禁止 */
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .two-column .image {
+    order: 2;
+    flex: 0 0 45%;
+    margin-top: 40px;  /* 上の透明空間をずらす */
+  }
+
+  .two-column .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .two-column .text {
+    order: 1;
+    flex: 1 1 55%;
+    max-width: 100%;
+  }
+}
+
 /* スマホ時はそのまま上→下（画像→テキスト） */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .two-column {
     flex-direction: column;
   }
