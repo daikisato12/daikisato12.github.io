@@ -166,6 +166,52 @@ main ol:not(.breadcrumb) li {
   display: none;
 }
 
+.collapsible-block {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.collapsible-block summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+
+/* アニメーション部分 */
+.collapsible-block[open] {
+  animation: fade-slide-down 0.3s ease-in-out;
+}
+
+/* summary クリック時の中身に transition */
+.collapsible-block > *:not(summary) {
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.collapsible-block[open] > *:not(summary) {
+  opacity: 1;
+  max-height: 5000px; /* 十分に大きな値にしておく */
+}
+
+/* optional: 開く時に少し下から */
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Publication */
 .pub-entry {
   display: flex;
