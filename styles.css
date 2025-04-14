@@ -168,7 +168,7 @@ main ol:not(.breadcrumb) li {
   /* 右：画像エリア */
   .two-column .image {
     order: 2; /* ← PC表示時は右側に置く */
-    flex: 1 1 40%;
+    flex: 1 1 33%;
     min-width: 240px;
     display: flex;
     justify-content: top;
