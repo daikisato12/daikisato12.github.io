@@ -147,6 +147,62 @@ main ol:not(.breadcrumb) li {
 }
 
 /* Research */
+/* 2カラム横並びレイアウト（文章左・画像右） */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;     /* ← ここで上揃え */
+  margin: 2rem 0;
+  margin-bottom: 0 !important;
+}
+
+/* 左：文章エリア */
+.two-column .text {
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+/* 右：画像エリア */
+.two-column .image {
+  flex: 1 1 40%;
+  min-width: 240px;
+  display: flex;
+  justify-content: top;
+  align-items: flex-start;
+  padding-top: 0rem;          /* 上に少し余白があると揃いやすい */
+}
+
+/* 画像の調整（影を除去し、自然なサイズ感） */
+.two-column .image img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;  /* 上の透明空間をずらす */
+  vertical-align: top;
+  box-shadow: none;
+  max-width: 100%;
+  height: auto;
+}
+
+/* スマホ時：縦並びで画像→文章の順 */
+@media (max-width: 767.98px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .two-column .image {
+    order: 1;  /* 先に表示 */
+    flex: 1 1 100%;
+    margin-top: 20px !important;  /* ← 上の余白を消す */
+  }
+
+  .two-column .text {
+    order: 2;  /* 後に表示 */
+    flex: 1 1 100%;
+    margin-top: -50px
+  }
+}
+
 .image {
   text-align: center;
   margin: 2rem 0;
@@ -172,6 +228,7 @@ main ol:not(.breadcrumb) li {
   background: #fafafa;
   padding: 0.5rem 1rem;
   margin: 1.5rem 0;
+  margin-top: 0 !important;
   overflow: hidden;
 }
 
