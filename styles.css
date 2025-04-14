@@ -146,6 +146,25 @@ main ol:not(.breadcrumb) li {
   word-break: break-word;
 }
 
+/* Research */
+.image {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  align-items: center;  /* 中央に揃える */
+  border-radius: 8px;       /* 任意：角を少し丸める */
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);  /* 任意：見やすさUP */
+}
+
+/* 不要ならキャプションも非表示に */
+.image figcaption {
+  display: none;
+}
 
 /* Publication */
 .pub-entry {
