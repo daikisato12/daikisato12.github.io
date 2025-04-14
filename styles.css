@@ -180,7 +180,7 @@ main ol:not(.breadcrumb) li {
   .two-column .image img {
     display: block;
     margin: 0 auto;
-    margin-top: -30px;  /* 上の透明空間をずらす */
+    margin-top: -25px;  /* 上の透明空間をずらす */
     vertical-align: top;
     box-shadow: none;
     max-width: 100%;
@@ -188,20 +188,15 @@ main ol:not(.breadcrumb) li {
   }
 }
 
-/* スマホ時：縦並びで画像→文章の順 */
-@media (max-width: 767px) {
+/* スマホ時はそのまま上→下（画像→テキスト） */
+@media (max-width: 767.98px) {
   .two-column {
     flex-direction: column;
   }
 
-  .two-column .image {
-    order: 1;  /* 先に表示 */
-    flex: 1 1 100%;
-    margin-top: 20px !important;  /* ← 上の余白を消す */
-  }
-
+  .two-column .image,
   .two-column .text {
-    order: 2;  /* 後に表示 */
+    order: initial;
     flex: 1 1 100%;
   }
 }
