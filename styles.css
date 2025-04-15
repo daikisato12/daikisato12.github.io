@@ -180,6 +180,7 @@ main ol:not(.breadcrumb) li {
   .two-column .image img {
     display: block;
     margin: 0 auto;
+    margin-top: -30px;  /* 上の透明空間をずらす */
     vertical-align: top;
     box-shadow: none;
     max-width: 100%;
@@ -197,7 +198,7 @@ main ol:not(.breadcrumb) li {
 
   .two-column .image {
     order: 2;
-    flex: 0 0 35%;
+    flex: 0 0 40%;
     margin-top: 40px;  /* 上の透明空間をずらす */
   }
 
