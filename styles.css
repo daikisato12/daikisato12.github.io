@@ -168,7 +168,7 @@ main ol:not(.breadcrumb) li {
   /* 右：画像エリア */
   .two-column .image {
     order: 2; /* ← PC表示時は右側に置く */
-    flex: 1 1 33%;
+    flex: 1 1 35%;
     min-width: 240px;
     display: flex;
     justify-content: top;
@@ -180,7 +180,6 @@ main ol:not(.breadcrumb) li {
   .two-column .image img {
     display: block;
     margin: 0 auto;
-    margin-top: -35px;  /* 上の透明空間をずらす */
     vertical-align: top;
     box-shadow: none;
     max-width: 100%;
@@ -198,7 +197,7 @@ main ol:not(.breadcrumb) li {
 
   .two-column .image {
     order: 2;
-    flex: 0 0 45%;
+    flex: 0 0 35%;
     margin-top: 40px;  /* 上の透明空間をずらす */
   }
 
