@@ -115,7 +115,7 @@ main ol:not(.breadcrumb) li {
   border: 1px solid #ccc;
   border-top: none;
   padding: 1rem 1.2rem;
-  max-height: 6.5em;
+  max-height: 8.3em;
   overflow-y: auto;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
